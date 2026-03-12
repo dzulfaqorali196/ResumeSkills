@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc Maulidya_Humaera_CV.md -o Maulidya_Humaera_CV.docx)",
+      "Bash(where pandoc:*)",
+      "Bash(/c/Users/Dzulfaqor/AppData/Local/Pandoc/pandoc.exe --version)",
+      "Read(//c/Program Files/Pandoc//**)",
+      "Read(//c/Users/Dzulfaqor/AppData/Local/**)",
+      "Bash(\"/c/Users/Dzulfaqor/AppData/Local/Pandoc/pandoc.exe\" \"d:/Kuliah/Akademik/Semester 8/ResumeSkills/Maulidya_Humaera_CV.md\" -o \"d:/Kuliah/Akademik/Semester 8/ResumeSkills/Maulidya_Humaera_CV.docx\")",
+      "Bash(cmd.exe /c \"pandoc --version\")",
+      "Bash(cmd.exe /c \"where pandoc\")",
+      "Bash(cmd.exe /c \"dir /s /b C:\\\\pandoc.exe 2>nul\")"
+    ]
+  }
+}
